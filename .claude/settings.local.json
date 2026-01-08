@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/jsharpe/kia_uvo log:*)",
+      "Bash(git -C /Users/jsharpe/kia_uvo shortlog -sn --since=\"2024-03-23\")",
+      "Bash(git -C /Users/jsharpe/kia_uvo shortlog -sn --all)",
+      "WebFetch(domain:github.com)",
+      "WebSearch",
+      "Bash(gh issue list:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
